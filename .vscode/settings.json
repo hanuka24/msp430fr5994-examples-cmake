@@ -1,0 +1,20 @@
+{    "cmake.configureSettings": {
+    // In case your GNU ARM-Toolchain is not installed under the default
+    // path:
+    //     Windows : No default path. Specify the path where the
+    //               toolchain is installed. i.e:
+    //               "C:/PROGRA~2/GNUTOO~1/92019-~1".
+    //     Linux   : /usr
+    //     OSX     : /usr/local
+    // It is required to uncomment and to fill the following line.
+    "TOOLCHAIN_PREFIX":"C:/ti/msp430-gcc/bin", //<< Adjust accordingly
+    // Specifies the path to the CMAKE toolchain file.
+    "CMAKE_TOOLCHAIN_FILE":"msp430-toolchain.cmake",
+},
+    "files.associations": {
+        "serial.h": "c",
+        "si7021.h": "c",
+        "cmath": "c",
+        "spi.h": "c"
+    }
+}
